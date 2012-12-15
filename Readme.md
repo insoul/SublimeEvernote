@@ -27,21 +27,4 @@ or clone this repository in
 
 `Context menu` > `Evernote settings`
 
-#### Markdown Support ####
 
-Write notes in Markdown and they will be processed when they are sent to Evernote.
-
-This:
-![this](https://dl.dropbox.com/u/643062/SublimeEvernoteScreenshots/Markdown.png)
-
-Turns into this:
-![this](https://dl.dropbox.com/u/643062/SublimeEvernoteScreenshots/Evernote.png)
-
-#### Metadata ####
-
-Use metadata block to specify title and tags.
-
-    ---
-    title: My Note
-    tags: tag1,tag2
-    ---
