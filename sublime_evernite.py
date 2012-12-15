@@ -129,7 +129,7 @@ class SendToEvernoteCommand(sublime_plugin.TextCommand):
             self.window.show_input_panel("Tags (Optional)::","",on_tags,None,None) 
 
         if not  kwargs.get("title"):
-            self.window.show_input_panel("Title (required)::","",on_title,None,None)
+            self.window.show_input_panel("Title (required)::","Untitled Note from Sublime",on_title,None,None)
         else:
             sendnote(kwargs.get("title"),kwargs.get("tags")) 
 
